@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>寻找</title>
+    <url>/2025/06/05/%E5%AF%BB%E6%89%BE/</url>
+    <content><![CDATA[<p>故事就是过去发生的事<br />
+故人就是</p>
+]]></content>
+      <tags>
+        <tag>脚步</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>念着倒客博篇一第的我</title>
+    <url>/2025/05/27/%E5%AE%A2%E5%8D%9A%E7%AF%87%E4%B8%80%E7%AC%AC%E7%9A%84%E6%88%91/</url>
+    <content><![CDATA[<h1>这是一次markdown语法练习</h1>
+<hr />
+<h1>你会写标题吗？</h1>
+<h1>我是一级标题</h1>
+<h2 id="我是二级标题">我是二级标题</h2>
+<h3 id="我是三级标题">我是三级标题</h3>
+<h4 id="我是四级标题">我是四级标题</h4>
+<h5 id="我是五级标题">我是五级标题</h5>
+<h6 id="……">……</h6>
+<p><s>有没有一百级标题呢？</s> 最多只到六级哈哈哈</p>
+<hr />
+<h1>看看怎么分段</h1>
+<p>段落之间空行只需要</p>
+<p>加回车键就好了</p>
+<p><em>不要在前面用空格或制表符缩进</em></p>
+<hr />
+<h1>❗我要强调一下</h1>
+<p>这是<strong>加粗</strong><br />
+这是<em>斜体</em><br />
+这是<em><strong>加粗的斜体</strong></em></p>
+<hr />
+<h1>这是引用</h1>
+<p>一个段落的引用</p>
+<blockquote>
+<p>人生所不能承受的，不是存在，而是作为自我的存在。阿涅斯心想：生活，生活并无任何幸福可言。生活，就是在这尘世中带着痛苦的自我。——米兰·昆德拉《不朽》</p>
+</blockquote>
+<p>多个段落的引用</p>
+<blockquote>
+<p>这是世界还有欢乐很多，你为什么不去一起疯。</p>
+<p>这个世界本就形形色色，你为什么不能放轻松。</p>
+<p>——狗毛《冲动》</p>
+</blockquote>
+<p>嵌套引用</p>
+<blockquote>
+<p>Dorothy followed her through many of the beautiful rooms in her castle.</p>
+<blockquote>
+<p>The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.</p>
+</blockquote>
+</blockquote>
+<hr />
+<h1>看看怎么排列分点</h1>
+<p><strong>有序列表</strong></p>
+<ol>
+<li>首先</li>
+<li>其次</li>
+<li>再者
+<ol>
+<li>还有</li>
+<li>还有的还有</li>
+</ol>
+</li>
+</ol>
+<p><strong>无序列表</strong></p>
+<ul>
+<li>这是分点一</li>
+<li>这是分点二</li>
+<li>这是分点三</li>
+</ul>
+<hr />
+<h1>把代码放进来</h1>
+<p>At the command prompt, type <code>nano</code>.</p>
+<pre><code>&amp;lt;html&gt;
+  &amp;lt;head&gt;
+  &amp;lt;/head&gt;
+&amp;lt;/html&gt;
+</code></pre>
+<p><code>Use `code` in your Markdown file.</code></p>
+<hr />
+<h1>我能带你去另一个网站</h1>
+<p>点击此处你可以进入一个<a href="https://earthexplorer.usgs.gov/">地图网站</a></p>
+<hr />
+<h1>还可以制作Todo List</h1>
+<ul>
+<li><input type="checkbox" id="checkbox0" checked="true" /><label for="checkbox0">11点前</label><strong>不</strong>睡觉</li>
+<li><input type="checkbox" id="checkbox1" /><label for="checkbox1">从您的</label><em>100</em>个爱好中删除 <em>1.5%</em> 个</li>
+</ul>
+<hr />
+<h2 id="也许还能写公式">也许还能写公式</h2>
+<p>$$E = mc^2$$</p>
+<hr />
+<h2 id="让我试试表是否可行">让我试试表是否可行</h2>
+<h3 id="我们来下棋">我们来下棋</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">🐷</th>
+<th style="text-align:center">🐷</th>
+<th style="text-align:center">🐢</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">🐢</td>
+<td style="text-align:center">🐢</td>
+<td style="text-align:center">🐷</td>
+</tr>
+<tr>
+<td style="text-align:center">🐷</td>
+<td style="text-align:center">🐷</td>
+<td style="text-align:center">🐢</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h1>能不能插入图片呢?</h1>
+<p><img src="/pic/avatar1.png" alt="这是图片" /></p>
+<hr />
+<h1>结束</h1>
+<p>😴睡觉</p>
+<p>如你所见，我从0开始，什么都不会。这一过程中发生了许多十分诡异的事。比如用相同的配置，在不同主题下显示的公式或者todolist或者emoji表情都有不同。在next主题下，config中，我删除了plugin中的markdown-it-katex后公式的上标才没有变成下标。我啥都不懂，为什么😭!<br />
+试试。<br />
+千万别装hexo-renderer-marked这个插件</p>
+]]></content>
+      <tags>
+        <tag>练习</tag>
+      </tags>
+  </entry>
+</search>
